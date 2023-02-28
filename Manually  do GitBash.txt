@@ -1,0 +1,31 @@
+git config --global user.name "Gustavo da Costa"
+
+git config -- global user.email "Gustavocardosodacosta2@gmail.com"
+
+git init 
+
+touch test.txt
+
+git add.                
+
+git commit -m "test"
+                     "#Gerar e Copiar Chave SSH OPS NÃO ESQUECER DE CADASTRA NO PEFIL GIT#" 
+ssh-keygen -t rsa -C "gustavocardosodacosta2@gmail.com"
+
+notepad ~/.ssh/id_rsa.pub
+
+-----------------------------------------------------------------------------------------------
+
+Cadastramento e Verificaçao SSH
+
+WEB:guia perfil-setting-SHH E GPG chave - nova SSH
+--
+verificar: no terminal git com comando ssh -T git@github.com
+
+------------------------------------------------------------------------------------------
+Origin primeiro empurrão
+					endereçogit / repositorio
+git remote add origin git@github.com:GustavodaCosta2002/Meus-Projetos
+
+git push origin main
+
